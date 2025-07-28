@@ -1,0 +1,96 @@
+/*  
+Cores:
+Azul marinho: #3C313D
+Coral: #FF6E00
+*/
+
+/* CSS global */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 50%;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  fill: inherit;
+}
+a:hover{
+  color: #FF6E00;
+}
+
+
+
+/* CSS Header */
+header{
+  background-color: #3C313D;
+  padding: 12px 0;
+  color: white;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+header h1 img{
+  width: 230px;
+}
+header nav{
+  width:60%;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header nav a{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+header nav i{
+  font-size: 30px;
+}
+header nav p{
+  font-size: 20px;
+}
+
+
+
+/* CSS main */
+main{
+  margin: 30px 0; 
+}
+main h2{
+  margin:20px 0;
+  font-size: 35px;
+}
+main p{
+  margin-top: 15px;
+}
+#fotos img{
+  width:100%;
+}
+#fotos figure{
+  margin-top: 30px;
+}
+#noticias{
+  margin: auto;
+}
+
+
+
+/* CSS footer*/
+footer{
+  padding: 15px 0;
+  background-color: #3C313D;
+  color: white;
+}
+footer p{
+  margin-top: 5px;
+}
