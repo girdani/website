@@ -79,6 +79,7 @@ main h2{
 /* CSS Table */
 table {
   width: 100%;
+  margin-bottom: 20px;
   text-align: center;
   border-collapse: collapse;
 }
@@ -96,15 +97,16 @@ table td {
 table tr:nth-child(odd){
   background-color: #81c6b8; 
 }
-
-
-
 /* CSS Main material didático */
 .banco_de_questoes{
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+main .fa-download{
+  margin-right:15px;
+}
+
 
 
 /* CSS Footer */
